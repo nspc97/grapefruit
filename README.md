@@ -1,7 +1,7 @@
 # start project:
-composer install
-make .env
-php artisan key:generate
-php artisan migrate
-php artisan jwt:generate-certs
-php artisan jwt:secret
+1. composer install
+2. create .env
+3. php artisan key:generate
+4. php artisan migrate
+5. php artisan jwt:generate-certs
+6. php artisan jwt:secret
